@@ -1,0 +1,10 @@
+.footer{
+    margin-top: 2rem;
+    background-color: #1b1c1e;
+    color:#97989b;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

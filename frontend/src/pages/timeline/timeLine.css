@@ -1,0 +1,47 @@
+.timeline{
+    width: 100%;
+}
+
+.timeline-wrapper{
+    width: 80%;
+    margin: 1rem auto;
+}
+.timeline-left{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+.timeline-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.timeline-content-monthWrapper{
+    margin-bottom: 1rem;
+}
+.timeline-content-month{
+    color:#1890ff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+.timeline-content-dayItem{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: start;
+    cursor: pointer;
+}
+.dayItem-left{
+    font-size: 1rem;
+    color:gray;
+    margin-right: 1rem;
+}
+.dayItem-right{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.timeline-right{
+    /* background-color: #fff; */
+}

@@ -1,0 +1,33 @@
+.article-card{
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.article-img-wrapper{
+    height: 100%;
+    display: flex;
+}
+
+.article-img{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.article p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.article-bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #595959;
+    
+}

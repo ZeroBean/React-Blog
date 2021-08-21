@@ -1,0 +1,36 @@
+.detail{
+    width: 100%;
+}
+.detail-main{
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.main-content{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.main-content-title{
+    text-align: center;
+    font-weight: 600;
+}
+
+.main-content-subTitle{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.navigation{
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.markdown-navigation{
+    font-size: 18px;
+}

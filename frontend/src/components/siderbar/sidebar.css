@@ -1,0 +1,33 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color:#fff;
+}
+.about-avartar{
+    margin-top: .5rem;
+}
+
+.about-desc{
+    margin-top: 1.5rem;
+}
+
+.about-desc p{
+    font-size: .5rem;
+    color: #bdbbbb;
+    text-indent: 1rem;
+}
+
+.icon-item{
+    font-size: 1.4rem;
+    margin-left: .4rem;
+    cursor: pointer;
+}
+
+.tag{
+    margin-top: 1.5rem;
+}
+

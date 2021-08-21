@@ -1,0 +1,176 @@
+.markdownHereWrapper {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.8em;
+    letter-spacing: 0.1em;
+  }
+  
+  
+  .markdownBody pre, code {
+    font-size: 14px;
+    font-family: Roboto, 'Courier New', Consolas, Inconsolata, Courier, monospace;
+    margin: auto 5px;
+  }
+  
+  .markdownBody code {
+    white-space: pre-wrap;
+    border-radius: 2px;
+    display: inline;
+  }
+  
+  .markdownBody pre {
+    /* background-color: #000; */
+    font-size: 15px;
+    line-height: 1.4em;
+    display: block !important;
+  }
+  
+  .markdownBody pre code {
+    background-color: rgba(0, 0, 0, 0.774);
+    color:rgba(255, 255, 255, 0.815);
+    white-space: pre;
+    overflow: auto;
+    border-radius: 3px;
+    padding: 1px 1px;
+    display: block !important;
+  }
+  
+  .markdownBody strong, b{
+    color: #BF360C;
+  }
+  
+  .markdownBody em, i {
+    color:#1890ff;
+  }
+  
+  .markdownBody hr {
+    border: 1px solid #BF360C;
+    margin: 1.5em auto;
+  }
+  
+  .markdownBody p {
+    margin: 1.5em 5px !important;
+  }
+  
+  .markdownBody table, pre, dl, blockquote, q, ul, ol {
+    margin: 10px 5px;
+  }
+  
+  .markdownBody ul, ol {
+    padding-left: 15px;
+  }
+  
+  .markdownBody li {
+    margin: 10px;
+  }
+  
+  .markdownBody li p {
+    margin: 10px 0 !important;
+  }
+  
+  .markdownBody ul ul, ul ol, ol ul, ol ol {
+    margin: 0;
+    padding-left: 10px;
+  }
+  
+  .markdownBody ul {
+    list-style-type: circle;
+  }
+  
+  .markdownBody dl {
+    padding: 0;
+  }
+  
+  .markdownBody dl dt {
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .markdownBody dl dd {
+    margin: 0 0 10px;
+    padding: 0 10px;
+  }
+  
+  .markdownBody blockquote, q {
+    border-left: 2px solid#1890ff;
+    padding: 0 10px;
+    color: #777;
+    quotes: none;
+    margin-left: 1em;
+  }
+  
+  .markdownBody blockquote::before, blockquote::after, q::before, q::after {
+    content: none;
+  }
+  
+  .markdownBody h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0 10px;
+    padding: 0;
+    font-style: bold !important;
+    color:#1890ff !important;
+    text-align: center !important;
+    margin: 1.5em 5px !important;
+    padding: 0.5em 1em !important;
+  }
+  
+  .markdownBody h1 {
+    font-size: 24px !important;
+    border-bottom: 1px solid #ddd !important;
+  }
+  
+  .markdownBody h2 {
+    font-size: 20px !important;
+    border-bottom: 1px solid #eee !important;
+  }
+  
+  .markdownBody h3 {
+    font-size: 18px;
+  }
+  
+  .markdownBody h4 {
+    font-size: 16px;
+  }
+  
+  
+  .markdownBody table {
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1em;
+    font: inherit;
+    border: 0;
+    margin: 0 auto;
+  }
+  
+  .markdownBody tbody {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  .markdownBody table tr {
+    border: 0;
+    border-top: 1px solid #CCC;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .markdownBody table tr:nth-child(2n) {
+    background-color: #F8F8F8;
+  }
+  
+  .markdownBody table tr th, table tr td {
+    font-size: 16px;
+    border: 1px solid #CCC;
+    margin: 0;
+    padding: 5px 10px;
+  }
+  
+  .markdownBody table tr th {
+    font-weight: bold;
+    color: #eee;
+    border: 1px solid#1890ff;
+    background-color:#1890ff;
+  }

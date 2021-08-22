@@ -10,7 +10,7 @@ function App() {
     <Provider store={store}>
       <Router>
        <Switch>
-          <Route path="/login" component={Login}/>
+          <Route path="/" exact component={Login}/>
           <Route path="/index" component={AdminIndex}/>
        </Switch>
      </Router>
